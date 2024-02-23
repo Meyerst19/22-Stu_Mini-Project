@@ -1,0 +1,70 @@
+* {
+  font-family: "Caveat", cursive;
+}
+Body {
+  margin: 0;
+  padding: 0;
+}
+Header {
+  height: 50px;
+  width: 1306px;
+  background-color: rgb(19, 112, 162);
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  border: solid rgb(21, 80, 18) 3px;
+}
+ul {
+  list-style: none;
+  text-align: right;
+  color: chartreuse;
+  padding-right: 5px;
+}
+.inline {
+  display: inline;
+}
+main {
+  width: 1306px;
+  text-align: center;
+  margin-top: 55px;
+  border-left: solid rgb(21, 80, 18) 3px;
+  border-right: solid rgb(21, 80, 18) 3px;
+  margin-bottom: 0;
+}
+section {
+  margin: 0;
+  padding: 0;
+}
+.top {
+  background-color: lemonchiffon;
+  height: 1000px;
+}
+.bottom {
+  background-color: rgb(16, 149, 71);
+  width: 1306px;
+  height: 200px;
+  margin: 0;
+}
+.absolute-container {
+  position: relative;
+}
+form {
+  position: absolute;
+  left: 600px;
+  top: 40px;
+}
+label,
+input {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+footer {
+  height: 50px;
+  width: 1306px;
+  background-color: rgb(19, 112, 162);
+  margin: 0;
+  padding: 0;
+  border: solid rgb(21, 80, 18) 3px;
+  text-align: center;
+}
